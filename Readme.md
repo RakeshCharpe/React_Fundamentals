@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/react-icons/react-icons/master/react-icons.svg" width="120" alt="React Icons">
 
-# React_Fundamentals
+# React Fundamentals
 Learning and implement the react concepts with assignment.
 
 ### What is React ?
