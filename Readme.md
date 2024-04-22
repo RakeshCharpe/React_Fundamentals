@@ -1,5 +1,5 @@
 <img src="https://raw.githubusercontent.com/react-icons/react-icons/master/react-icons.svg" width="120" alt="React Icons">
-<img src="https://rawgit.com/gorangajic/react-icons/master/react-icons.svg" width="120" color="blue" alt="React Icons">
+<img src="https://www.pngwing.com/en/free-png-cgbgg#google_vignette" width="120" color="blue" alt="React Icons">
 
 
 # React_Fundamentals
