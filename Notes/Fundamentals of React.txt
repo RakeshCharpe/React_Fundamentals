@@ -1,0 +1,30 @@
+1. React is Javascript library
+2. Sequence of file matters
+3. React element is nothing but the plain javascript object heading returns the object
+4. Render function is responsible for the take the js object , create Tag and put it in DOM
+5. Code for nested element
+    React.createElement("div", { id: "parent" }, React.createElement("div", { id: "child" }, React.createElement("h1", {}, "I'm h1 tag")));
+6. To create nested element with siblings we have to used array insted of single element as above code.
+7. JSX is used to make core react code simpler
+8. Create-react-app already ignite application to get production ready
+9. NPM(does not have a full form) is not node package manager
+10. NPM manage the node packages .
+11. Package.json is configuration for npm 
+12. projects dependents on lots of packages or dependencies which is managed by npm .
+13. Package and dependencies are same thing .
+14. Webpack , parcel , vit is bundlers which bundle all codes and ready to production.
+15. Two type of dependencies are there dev dependencies and normal dependencies . Parcel is a beast
+    dev dependencies means required for development
+    normal dependencies used for production as well
+16."devDependencies": {
+    "parcel": "^2.12.0"
+    }
+     added parcel in devDependencies what  is ^ this is caret
+17. tilde (~) used for major upgrades like 3.1.0 and caret (^) is used for minor upgrades like 2.12.1, 
+18. while install Parcel it added nodemodules and package-lock.json
+19. package-lock.json keep the records of exact version of the package that is installed . 
+20. Package.json keep the records of version approx and package-lock.json keep records of exact version 2.12.0
+21. Package-lock.json keeps the track of all the versions of dependencies , in integrity added SHA-512 for that .
+22. node-modules contains all the code which we fetched from npm , nodemodules like database which contains actual data/code of package
+23. Parcel as a project has it's own dependencies and those dependencies have there own dependencies this is called as transitive dependencies. That's why there is lot of directory in nodemodules installed.
+24. All projects under node modules has there own package.json 

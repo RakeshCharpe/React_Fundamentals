@@ -1,0 +1,26 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is npm package configured manually",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RakeshCharpe/React_Fundamentals.git"
+  },
+  "keywords": [
+    "react",
+    "learning"
+  ],
+  "author": "Rakesh Charpe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RakeshCharpe/React_Fundamentals/issues"
+  },
+  "homepage": "https://github.com/RakeshCharpe/React_Fundamentals#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

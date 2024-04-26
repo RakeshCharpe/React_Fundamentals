@@ -1,0 +1,2 @@
+Install parcel as Dev dependencies that's why we need -D in command . npm contains all packages and repository through which we get dependencies .
+    npm install -D parcel ()
