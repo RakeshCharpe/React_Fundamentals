@@ -8,11 +8,11 @@
 7. JSX is used to make core react code simpler
 8. Create-react-app already ignite application to get production ready
 9. NPM(does not have a full form) is not node package manager
-10. NPM manage the node packages .
+10. NPM manage the node packages npm init.
 11. Package.json is configuration for npm 
 12. projects dependents on lots of packages or dependencies which is managed by npm .
 13. Package and dependencies are same thing .
-14. Webpack , parcel , vit is bundlers which bundle all codes and ready to production.
+14. Webpack , parcel , vit is bundlers which bundle all codes and ready to production npm install -D parcel.
 15. Two type of dependencies are there dev dependencies and normal dependencies . Parcel is a beast
     dev dependencies means required for development
     normal dependencies used for production as well
