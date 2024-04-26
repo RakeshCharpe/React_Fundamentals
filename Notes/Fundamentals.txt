@@ -1,1 +1,11 @@
-React is Javascript library
+1.React is Javascript library
+2.sequence of file matters
+3.React element is nothing but the plain javascript object heading returns the object
+4.Render function is responsible for the take the js object , create Tag and put it in DOM
+
+5.Code for nested element
+React.createElement("div", { id: "parent" }, React.createElement("div", { id: "child" }, React.createElement("h1", {}, "I'm h1 tag")));
+
+6.To create nested element with siblings we have to used array insted of single element as above code.
+7. JSX is used to make core react code simpler
+
