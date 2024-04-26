@@ -28,3 +28,5 @@
 22. node-modules contains all the code which we fetched from npm , nodemodules like database which contains actual data/code of package
 23. Parcel as a project has it's own dependencies and those dependencies have there own dependencies this is called as transitive dependencies. That's why there is lot of directory in nodemodules installed.
 24. All projects under node modules has there own package.json 
+25. We need package.json and packge-lock.json to push in github.
+26. We didn't need to push nodemodules into the github because we can regenerate it from package files directly by (npm install)
