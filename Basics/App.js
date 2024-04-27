@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client"
 //Creating the nested element
 //const parent = React.createElement("div", { id: "parent" }, React.createElement("div", { id: "child" }, React.createElement("h1", {}, "I'm h1 tag")));
 
-// if we wanted to create siblings then we need to used array 
+// if we wanted to create siblings then we need to used array
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
     React.createElement("h1", {}, "I'm parent tag"),
@@ -19,11 +19,13 @@ const parent = React.createElement("div", { id: "parent" }, [
 
 
 const heading = React.createElement("h1", { id: "heading" }, "Hello World from React !!!");
-//React element is nothing but the plain javascript object heading returns the object 
+//React element is nothing but the plain javascript object heading returns the object
 console.log(heading);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // render function is responsible for the take the js object , create Tag and put it in DOM
 root.render(parent);
+
+
 
 

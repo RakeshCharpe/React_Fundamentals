@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "This is npm package configured manually",
   "scripts": {
+    "start": "parcel Fundamentals/index.html",
+    "build": "parcel build Fundamentals/index.html",
     "test": "jest"
   },
   "repository": {
@@ -27,9 +29,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  "browserlist":[
-    "last 2 verions"
+  "browserlist": [
+    "last 2 versions"
   ]
-  
-  
 }

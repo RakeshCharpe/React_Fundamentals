@@ -53,3 +53,12 @@
     Different dev and prod bundles
 
 31. After production build it create dist directory which have optimized build
+32. Scripts are written in package.json for start or build or anything
+33. JSX is HTML like syntax , it is not html in js.
+34. JS code only understood by js engine of browser.
+35. JSX is not understood by js engine it understand only ECMAScript ES6
+36. JSX is not valid JS .
+37. JSX is transpiled before it reaches to JS Engine and it is done by parcel  , in parcel Babel does transpiled .
+38. Babel is compiler or transpiler 
+39. If we have to give attributes in jsx used camelCase format .
+40. If we want to write jsx in multiple line then we need to used () and inside that we can add multiple code;

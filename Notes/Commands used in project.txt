@@ -6,7 +6,7 @@ Install parcel as Dev dependencies that's why we need -D in command . npm contai
 Install all dependencies of projects 
     npm install
 
-Building app using parcel 
+Run app using parcel by passing source
     npx parcel index.html
 
 Install react
@@ -17,3 +17,7 @@ Install react-dom
 
 Build for production
     npx parcel build index.html
+
+Run project using Scripts
+    npm run start
+    npm run build

@@ -1,0 +1,7 @@
+> React.createElement() gives as object and after it convert it into html tag.
+> There are two type of components
+    1. Class Based components = OLD
+    2. Functional Components = NEW
+> A javascript function which return the react element called Functional Components.
+> Component always start with capital letter
+> Component Composition is nothing but composing/inside one component into another component.
