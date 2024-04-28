@@ -15,7 +15,7 @@ console.log(heading);
 
 
 //React Element
-const Jsxheading = () => (
+const Jsxheading = (
   <div id="container">
     <h1 className="head">This is from JSX</h1>
   </div>
@@ -24,13 +24,14 @@ console.log(Jsxheading);
 
 const fn = () => true;
 const fn2 = () => { return true; };
+const number = 1000;
 
 // React functional Component => A javascript function which return the react element
 const HeadingComponent = () => {
     return (
         <div className="container">
-            < Jsxheading />
-        <h2 className="heading">Functional Component</h2>
+            { Jsxheading } 
+            <h2 className="heading">Functional Component { number }</h2>
       </div>
     );
 }
