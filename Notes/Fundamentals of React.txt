@@ -5,3 +5,6 @@
 > A javascript function which return the react element called Functional Components.
 > Component always start with capital letter
 > Component Composition is nothing but composing/inside one component into another component.
+> We Can inject any piece of code using {} in JSX .
+> JSX prevent crosssites scripts attack 
+> Props are like passing arguments to a function, in react props in components
