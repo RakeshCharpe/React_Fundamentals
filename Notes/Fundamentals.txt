@@ -4,7 +4,7 @@
 4. Render function is responsible for the take the js object , create Tag and put it in DOM
 5. Code for nested element
     React.createElement("div", { id: "parent" }, React.createElement("div", { id: "child" }, React.createElement("h1", {}, "I'm h1 tag")));
-6. To create nested element with siblings we have to used array insted of single element as above code.
+6. To create nested element with siblings we have to used array instead of single element as above code.
 7. JSX is used to make core react code simpler
 8. Create-react-app already ignite application to get production ready
 9. NPM(does not have a full form) is not node package manager
